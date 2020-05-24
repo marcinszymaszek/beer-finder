@@ -1,0 +1,10 @@
+#beer-list-pagination{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+#beer-pag-link{
+    color: #2c2c2a;
+}

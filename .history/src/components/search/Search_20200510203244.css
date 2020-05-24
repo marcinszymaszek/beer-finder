@@ -1,0 +1,35 @@
+.inline-container {
+    display: flex;
+    flex-flow: wrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+input {
+    width: 100%;
+    margin: 10px;
+    padding: 18px 10px;
+    border-radius: 4px;
+    border: 1px solid #4e5766;
+    box-shadow: 1px 0.5px #888888;
+    font-size: 18px;
+}
+
+    button {
+        padding: 12px 10px;
+        width: 30%;
+        border-radius: 4px;
+        background-color: #e7b835;
+        color: #4d4d4d;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+
+@media (max-width: 767px)  {
+    .inline-container {
+        justify-content: space-evenly;
+    }
+}
